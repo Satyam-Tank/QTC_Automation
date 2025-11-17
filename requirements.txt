@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+msal
+requests
+beautifulsoup4
+PyPDF2
+python-docx
+pandas
+openpyxl
+google-generativeai
+playwright

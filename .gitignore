@@ -1,0 +1,17 @@
+venv
+.venv
+__pycache__
+.vscode
+*.pdf
+history.json
+embeddings
+token
+.DS_Store
+onedrive_sync_state.json
+temp_onedrive_downloads
+
+# Environment files
+src/envs/.env.dev
+src/envs/.env.stage
+src/envs/.env.test
+src/.env

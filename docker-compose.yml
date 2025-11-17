@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "8053:8000"
+    volumes:
+      # Mount auth files needed for the single service
+      - ./user_tokens.json:/app/user_tokens.json
+      - ./auth.json:/app/auth.json:ro
