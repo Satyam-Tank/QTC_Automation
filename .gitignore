@@ -15,3 +15,4 @@ src/envs/.env.dev
 src/envs/.env.stage
 src/envs/.env.test
 src/.env
+.env
